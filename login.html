@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/syyle.css" />
+  </head>
+  <body>
+    <div class="container my-5 text-center">
+      <div class="group m-auto w-75 p-5">
+        <h1>Smart Login System</h1>
+        <input
+          type="text"
+          id="signinEmail"
+          placeholder="Enter your email"
+          class="form-control my-3"
+        />
+        <input
+        type="text"
+        id="signinPassword"
+        placeholder="Enter your password"
+        class="form-control my-3"
+      />
+      <p class="alert p-0 mb-0 d-none justify-content-center" id="alertMessage"></p>
+      <button id="signinbtn" class="btn btn-outline-info w-100 my-3">login</button>
+      <p class="text-white">Don’t have an account?
+        <a href="logup.html" class="text-white">Sign up</a>
+      </p>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signin.js"></script>
+  </body>
+</html>

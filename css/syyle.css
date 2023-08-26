@@ -1,0 +1,30 @@
+body {
+    background-color: #24353F;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.boxshadow {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
